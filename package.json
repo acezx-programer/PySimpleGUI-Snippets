@@ -1,0 +1,28 @@
+{
+    "name": "pysimplegui-snippets",
+    "displayName": "PySimpleGUI Snippets",
+    "description": "Snippets for PySimpleGUI",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Acezx",
+    "publisher": "Acezx",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/acezx-programer/PySimpleGUI-Snippets"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

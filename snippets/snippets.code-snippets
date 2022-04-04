@@ -1,0 +1,47 @@
+{
+  "PySimpleGUI Template": {
+    "prefix": "!PySG.New",
+    "body": [
+      "import PySimpleGUI as sg",
+      "$0",
+      "layout = [",
+      "    []",
+      "]",
+      "$0",
+      "window = sg.Window('${1:Title}', layout)",
+      "$0",
+      "while True:",
+      "    event, values = window.read()",
+      "    if event == sg.WIN_CLOSED:",
+      "        break",
+      "$0",
+      "window.close()"
+    ],
+    "description": "PySimpleGUI Template"
+  },
+  "PysimpleGUI Button": {
+    "prefix": "!PySG.Button",
+    "body": ["sg.Button('${1:Button}')"],
+    "description": "PysimpleGUI Button"
+  },
+  "PySimpleGUI Text": {
+    "prefix": "!PySG.Text",
+    "body": ["sg.Text('${1:Text}')"],
+    "description": "PySimpleGUI Text"
+  },
+  "PySimpleGUI Input": {
+    "prefix": "!PySG.Input",
+    "body": ["sg.Input('${1:Input}')"],
+    "description": "PySimpleGUI Input"
+  },
+  "PySimpleGUI Spin": {
+    "prefix": "!PySG.Spin",
+    "body": ["sg.Spin('${1:Spin}')"],
+    "description": "PySimpleGUI Spin"
+  },
+  "PySimpleGUI Theme": {
+    "prefix": "!PySG.Theme",
+    "body": ["sg.theme('${1:Theme}')"],
+    "description": "PySimpleGUI Theme"
+  }
+}
