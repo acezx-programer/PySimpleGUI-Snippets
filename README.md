@@ -30,6 +30,7 @@ Initial release of PySimpleGUI Snippets
 ### For more information
 
 - [Source Code](https://github.com/acezx-programer/PySimpleGUI-Snippets)
+- [Install on Marketplace](https://marketplace.visualstudio.com/items?itemName=Acezx.pysimplegui-snippets)
 - [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
