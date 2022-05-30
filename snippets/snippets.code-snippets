@@ -17,31 +17,81 @@
       "$0",
       "window.close()"
     ],
-    "description": "PySimpleGUI Template"
+    "description": "PySimpleGUI Template - A Quick start for a PySimpleGUI Project"
   },
-  "PysimpleGUI Button": {
+  "PySimpleGUI Button": {
     "prefix": "!PySG.Button",
     "body": ["sg.Button('${1:Button}')"],
-    "description": "PysimpleGUI Button"
+    "description": "PysimpleGUI Button - Defines all possible buttons. The shortcuts such as Submit, FileBrowse, ... each create a Button"
   },
   "PySimpleGUI Text": {
     "prefix": "!PySG.Text",
     "body": ["sg.Text('${1:Text}')"],
-    "description": "PySimpleGUI Text"
+    "description": "PySimpleGUI Text - Display some text in the window."
   },
   "PySimpleGUI Input": {
     "prefix": "!PySG.Input",
     "body": ["sg.Input('${1:Input}')"],
-    "description": "PySimpleGUI Input"
+    "description": "PySimpleGUI Input - Display a single text input field."
   },
   "PySimpleGUI Spin": {
     "prefix": "!PySG.Spin",
     "body": ["sg.Spin('${1:Spin}')"],
-    "description": "PySimpleGUI Spin"
+    "description": "PySimpleGUI Spin - A spinner with up/down buttons and a single line of text. Choose 1 values from list"
   },
   "PySimpleGUI Theme": {
     "prefix": "!PySG.Theme",
     "body": ["sg.theme('${1:Theme}')"],
-    "description": "PySimpleGUI Theme"
+    "description": "PySimpleGUI Theme - Change the look and feel of the window"
+  },
+  "PySimpleGUI ButtonMenu":{
+    "prefix": "!PySG.ButtonMenu",
+    "body": ["sg.ButtonMenu('${1:ButtonMenu}')"],
+    "description": "PySimpleGui Button Menu - Creates a button that when clicked will show a menu similar to right click menu"
+  },
+  "PySimpleGUI Canvas":{
+    "prefix": "!PySG.Canvas",
+    "body": ["sg.Canvas(background_color=None,size=(None,None))"],
+    "description": "PySimpleGUI Canvas"
+  },
+  "PySimpleGUI Checkbox":{
+    "prefix": "!PySG.Checkbox",
+    "body": ["sg.Checkbox('${1:Checkbox}')"],
+    "description": "PySimpleGUI Checkbox - Displays a checkbox and text next to it"
+  },
+  "PySimpleGUI Listbox":{
+    "prefix": "!PySG.Listbox",
+    "body": ["sg.Listbox(values=['${1:value}', '${2:value}', '${3:value}'], size=(${4:None}, ${5:None}))"],
+    "description": "PySimpleGUI Listbox - Provide a list of values for the user to choose one or more of."
+  },
+  "PySimpleGUI Column":{
+    "prefix": "!PySG.Column",
+    "body": ["sg.Column(${1:layout})"],
+    "description": "PySimpleGUI Column - A container element that is used to create a layout within your window's layout"
+  },
+  "PySimpleGUI Combo":{
+    "prefix": "!PySG.Combo",
+    "body": ["sg.Combo(${1:values})"],
+    "description": "PySimpleGUI Combo or ComboBox - A combination of a single-line input and a drop-down menu. User can type in their own value or choose from list."
+  },
+  "PySimpleGUI Frame":{
+    "prefix": "!PySG.Frame",
+    "body": ["sg.Frame('${1:title}',${2:layout})"],
+    "description": "PySimpleGUI Frame - A Frame Element that contains other Elements. Encloses with a line around elements and a text label."
+  },
+  "PySimpleGUI Image":{
+    "prefix": "!PySG.Image",
+    "body": ["sg.Image(source = '${1:None}', size = (${2:None},${3:None}))"],
+    "description": "PySimpleGUI Image - Show an image in the window. GIF or PNG only"
+  },
+  "PySimpleGUI Multiline":{
+    "prefix": "!PySG.Multiline",
+    "body": ["sg.Multiline('${1:Multiline}')"],
+    "description": "PySimpleGUI Multiline - Display and/or read multiple lines of text."
+  },
+  "PySimpleGUI Radio":{
+    "prefix": "!PySG.Radio",
+    "body": ["sg.Radio('${1:text}','${2:group_id}')"],
+    "description": "PySimpleGUI Radio - Used in a group of other Radio Elements to provide user with ability to select only 1 choice in a list of choices."
   }
 }

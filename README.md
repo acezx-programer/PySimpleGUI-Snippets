@@ -1,17 +1,32 @@
 # pysimplegui-snippets README
 
-This is the README for The extension "pysimplegui-snippets".
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Acezx.pysimplegui-snippets)
+[![GitHub license](https://img.shields.io/github/license/acezx-programer/PySimpleGUI-Snippets)](https://github.com/acezx-programer/PySimpleGUI-Snippets/blob/main/LICENSE.txt)
 
-# Features
+## Features
 
-!PySG.New -Template Snippet
-!PySG.Text -Text Snippet
-!PySG.Button -Button Snippet
-!PySG.Input -Input Snippet
-!PySG.Spin -Spin Snippet
-!PySG.Theme -Theme Snippet
+- `!PySG.New` - Template Snippet
+- `!PySG.Text` - Text Snippet
+- `!PySG.Button` - Button Snippet
+- `!PySG.Input` - Input Snippet
+- `!PySG.Spin` - Spin Snippet
+- `!PySG.Theme` - Theme Snippet
+- `!PySG.ButtonMenu` - Button Menu Snippet
+- `!PySG.Canvas` - Canvas Snippet
+- `!PySG.Checkbox` - Checkbox Snippet
+- `!PySG.Listbox` - Listbox Snippet
+- `!PySG.Column` - Column Snippet
+- `!PySG.Combo` - Combo or ComboBox Snippet
+- `!PySG.Frame` - Frame Snippet
+- `!PySG.Image` - Image Snippet
+- `!PySG.Multiline` - Multiline Snippet
+- `!PySG.Radio` - Radio Snippet
 
 ## Release Notes
+
+### 2.0.0
+
+10 new snippets, with descriptions.
 
 ### 1.0.0
 
@@ -33,5 +48,10 @@ Initial release of PySimpleGUI Snippets
 - [Install on Marketplace](https://marketplace.visualstudio.com/items?itemName=Acezx.pysimplegui-snippets)
 - [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+## Credits
+
+- [RenatocFrancisco](https://github.com/renatocfrancisco)
+- [Acezx](https://github.com/acezx-programer)
 
 **Enjoy!**
