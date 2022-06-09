@@ -1,26 +1,40 @@
-# pysimplegui-snippets README
+# PySimpleGUI Snippets
 
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Acezx.pysimplegui-snippets)
 [![GitHub license](https://img.shields.io/github/license/acezx-programer/PySimpleGUI-Snippets)](https://github.com/acezx-programer/PySimpleGUI-Snippets/blob/main/LICENSE.txt)
 
 ## Features
 
-- `!PySG.New` - Template Snippet
-- `!PySG.Text` - Text Snippet
-- `!PySG.Button` - Button Snippet
-- `!PySG.Input` - Input Snippet
-- `!PySG.Spin` - Spin Snippet
-- `!PySG.Theme` - Theme Snippet
-- `!PySG.ButtonMenu` - Button Menu Snippet
-- `!PySG.Canvas` - Canvas Snippet
-- `!PySG.Checkbox` - Checkbox Snippet
-- `!PySG.Listbox` - Listbox Snippet
-- `!PySG.Column` - Column Snippet
-- `!PySG.Combo` - Combo or ComboBox Snippet
-- `!PySG.Frame` - Frame Snippet
-- `!PySG.Image` - Image Snippet
-- `!PySG.Multiline` - Multiline Snippet
-- `!PySG.Radio` - Radio Snippet
+| Snippet            | Content                                |
+| ------------------ | -------------------------------------- |
+| `py-New`           | Template Snippet                       |
+| `py-Button`        | `sg.Button('Button')`                  |
+| `py-ButtonMenu`    | ``sg.ButtonMenu('ButtonMenu')``                                         |
+| `py-Canvas`        | ``sg.Canvas(background_color=None,size=(None,None))``                   |
+| `py-Checkbox`      | ``sg.Checkbox('Checkbox')``                                             |
+| `py-Column`        | ``sg.Column(layout)``                                                   |
+| `py-Combo`         | ``sg.Combo(values, default_value=None)``                                |
+| `py-Frame`         | ``sg.Frame('title',layout)``                                            |
+| `py-HSep`          | ``sg.HSep(color=None, pad=None)``                                       |
+| `py-Image`         | ``sg.Image(source = 'None', size = (None,None))``                       |
+| `py-Input`         | ``sg.Input('Input, s=size')``                                           |
+| `py-Listbox`       | ``sg.Listbox(values=['value', 'value', 'value'], size=(None, None), no_scrollbar=True,  s=(None,None))``                                                           |
+| `py-Menu`          | ``sg.Menu([['File', ['Exit']], ['Edit', ['Edit Me', ]]])``              |
+| `py-MenubarCustom` | ``sg.MenubarCustom([['File', ['Exit']], ['Edit', ['Edit Me', ]]])``     |
+| `py-Multiline`     | ``sg.Multiline(s=(None,None))``                                         |
+| `py-OptionMenu`    | ``sg.OptionMenu(['OptionMenu',],s=(None,None))``                        |
+| `py-Output`        | ``sg.Output(s=(None,None)``                                             |
+| `py-ProgressBar`   | ``sg.ProgressBar(maxvalue, orientation='h', s=(None,None))``            |
+| `py-Radio`         | ``sg.Radio('text','group_id')``                                         |
+| `py-Sizer`         | ``sg.Sizer(h_pixels,v_pixels)``                                         |
+| `py-Slider`        | ``sg.Slider((None,None), orientation='h', s=(None,None))``              |
+| `py-Spin`          | ``sg.Spin('Spin',s=(None,None))``                                       |
+| `py-StatusBar`     | ``sg.StatusBar('StatusBar')``                                           |
+| `py-Table`         | ``sg.Table([[1,2], [3,4]], ['Col 1','Col 2'], num_rows=rows)``          |
+| `py-Text`          | ``sg.Text('Text')``                                                     |
+| `py-Titlebar`      | ``sg.Titlebar(title = 'title')``                                        |
+| `py-Theme`         | ``sg.theme('Theme')``                                                   |
+| `py-VSep`          | ``sg.VSep(color=None, pad=None)``                                       |
 
 ## Release Notes
 
@@ -34,14 +48,6 @@ Initial release of PySimpleGUI Snippets
 
 ---
 
-## Working with Markdown
-
-**Note:** Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
 ### For more information
 
 - [Source Code](https://github.com/acezx-programer/PySimpleGUI-Snippets)
@@ -51,7 +57,7 @@ Initial release of PySimpleGUI Snippets
 
 ## Credits
 
-- [RenatocFrancisco](https://github.com/renatocfrancisco)
 - [Acezx](https://github.com/acezx-programer)
+- [renatocfrancisco](https://github.com/renatocfrancisco)
 
 **Enjoy!**

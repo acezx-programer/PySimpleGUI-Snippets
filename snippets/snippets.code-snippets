@@ -1,6 +1,6 @@
 {
   "PySimpleGUI Template": {
-    "prefix": "!PySG.New",
+    "prefix": "py-New",
     "body": [
       "import PySimpleGUI as sg",
       "$0",
@@ -20,78 +20,138 @@
     "description": "PySimpleGUI Template - A Quick start for a PySimpleGUI Project"
   },
   "PySimpleGUI Button": {
-    "prefix": "!PySG.Button",
+    "prefix": "py-Button",
     "body": ["sg.Button('${1:Button}')"],
     "description": "PysimpleGUI Button - Defines all possible buttons. The shortcuts such as Submit, FileBrowse, ... each create a Button"
   },
   "PySimpleGUI Text": {
-    "prefix": "!PySG.Text",
+    "prefix": "py-Text",
     "body": ["sg.Text('${1:Text}')"],
     "description": "PySimpleGUI Text - Display some text in the window."
   },
   "PySimpleGUI Input": {
-    "prefix": "!PySG.Input",
-    "body": ["sg.Input('${1:Input}')"],
+    "prefix": "py-Input",
+    "body": ["sg.Input('${1:Input}, s=${2:size}')"],
     "description": "PySimpleGUI Input - Display a single text input field."
   },
   "PySimpleGUI Spin": {
-    "prefix": "!PySG.Spin",
-    "body": ["sg.Spin('${1:Spin}')"],
-    "description": "PySimpleGUI Spin - A spinner with up/down buttons and a single line of text. Choose 1 values from list"
+    "prefix": "py-Spin",
+    "body": ["sg.Spin('${1:Spin}',s=(${2:None},${3:None}))"],
+    "description": "PySimpleGUI Spin - A spinner with up/down buttons and a single line of text. Choose 1 value from list"
   },
   "PySimpleGUI Theme": {
-    "prefix": "!PySG.Theme",
+    "prefix": "py-Theme",
     "body": ["sg.theme('${1:Theme}')"],
     "description": "PySimpleGUI Theme - Change the look and feel of the window"
   },
   "PySimpleGUI ButtonMenu":{
-    "prefix": "!PySG.ButtonMenu",
+    "prefix": "py-ButtonMenu",
     "body": ["sg.ButtonMenu('${1:ButtonMenu}')"],
     "description": "PySimpleGui Button Menu - Creates a button that when clicked will show a menu similar to right click menu"
   },
   "PySimpleGUI Canvas":{
-    "prefix": "!PySG.Canvas",
-    "body": ["sg.Canvas(background_color=None,size=(None,None))"],
+    "prefix": "py-Canvas",
+    "body": ["sg.Canvas(background_color=${1:None},size=(${2:None},${3:None}))"],
     "description": "PySimpleGUI Canvas"
   },
   "PySimpleGUI Checkbox":{
-    "prefix": "!PySG.Checkbox",
+    "prefix": "py-Checkbox",
     "body": ["sg.Checkbox('${1:Checkbox}')"],
     "description": "PySimpleGUI Checkbox - Displays a checkbox and text next to it"
   },
   "PySimpleGUI Listbox":{
-    "prefix": "!PySG.Listbox",
-    "body": ["sg.Listbox(values=['${1:value}', '${2:value}', '${3:value}'], size=(${4:None}, ${5:None}))"],
+    "prefix": "py-Listbox",
+    "body": ["sg.Listbox(values=['${1:value}', '${2:value}', '${3:value}'], size=(${4:None}, ${5:None}), no_scrollbar=${6:True},  s=(${7:None},${8:None}))"],
     "description": "PySimpleGUI Listbox - Provide a list of values for the user to choose one or more of."
   },
   "PySimpleGUI Column":{
-    "prefix": "!PySG.Column",
+    "prefix": "py-Column",
     "body": ["sg.Column(${1:layout})"],
     "description": "PySimpleGUI Column - A container element that is used to create a layout within your window's layout"
   },
   "PySimpleGUI Combo":{
-    "prefix": "!PySG.Combo",
-    "body": ["sg.Combo(${1:values})"],
+    "prefix": "py-Combo",
+    "body": ["sg.Combo(${1:values}, default_value=${2:None})"],
     "description": "PySimpleGUI Combo or ComboBox - A combination of a single-line input and a drop-down menu. User can type in their own value or choose from list."
   },
   "PySimpleGUI Frame":{
-    "prefix": "!PySG.Frame",
+    "prefix": "py-Frame",
     "body": ["sg.Frame('${1:title}',${2:layout})"],
     "description": "PySimpleGUI Frame - A Frame Element that contains other Elements. Encloses with a line around elements and a text label."
   },
   "PySimpleGUI Image":{
-    "prefix": "!PySG.Image",
+    "prefix": "py-Image",
     "body": ["sg.Image(source = '${1:None}', size = (${2:None},${3:None}))"],
     "description": "PySimpleGUI Image - Show an image in the window. GIF or PNG only"
   },
   "PySimpleGUI Multiline":{
-    "prefix": "!PySG.Multiline",
-    "body": ["sg.Multiline('${1:Multiline}')"],
+    "prefix": "py-Multiline",
+    "body": ["sg.Multiline(s=(${1:None},${2:None))"],
     "description": "PySimpleGUI Multiline - Display and/or read multiple lines of text."
   },
   "PySimpleGUI Radio":{
-    "prefix": "!PySG.Radio",
+    "prefix": "py-Radio",
     "body": ["sg.Radio('${1:text}','${2:group_id}')"],
     "description": "PySimpleGUI Radio - Used in a group of other Radio Elements to provide user with ability to select only 1 choice in a list of choices."
+  },
+  "PySimpleGUI Output":{
+    "prefix": "py-Output",
+    "body": ["sg.Output(s=(${1:None},${2:None}))"],
+    "description": "PySimpleGUI Output - (No longer recommended, use Multiline) Display scrolling text within window."
+  },
+  "PySimpleGUI Slider":{
+    "prefix": "py-Slider",
+    "body": ["sg.Slider((${1:None},${2:None}), orientation='${3:h}', s=(${4:None},${5:None}))"],
+    "description": "PySimpleGUI Slider - A slider element, orientation can be horizontal or vertical."
+  },
+  "PySimpleGUI Table":{
+    "prefix": "py-Table",
+    "body": ["sg.Table([[1,2], [3,4]], ['${1:Col 1}','${2:Col 2}'], num_rows=${3:rows})"],
+    "description": "PySimpleGUI Table - A basic table element."
+  },
+  "PySimpleGUI Menu":{
+    "prefix": "py-Menu",
+    "body": ["sg.Menu([['File', ['Exit']], ['Edit', ['Edit Me', ]]])"],
+    "description": "PySimpleGUI Menu - Basic Menu Bar that goes across the top of the window, just below titlebar."
+  },
+  "PySimpleGUI MenubarCustom":{
+    "prefix": "py-MenubarCustom",
+    "body": ["sg.MenubarCustom([['File', ['Exit']], ['Edit', ['Edit Me', ]]])"],
+    "description": "PySimpleGUI MenubarCustom - Column element of a Basic Custom Menu Bar."
+  },
+  "PySimpleGUI OptionMenu":{
+    "prefix": "py-OptionMenu",
+    "body": ["sg.OptionMenu(['${1:OptionMenu}',],s=(${2:None},${3:None}))"],
+    "description": "PySimpleGUI Option Menu - Element similar to ComboBox. (available ONLY on the tkinter port of PySimpleGUI.)"
+  },
+  "PySimpleGUI StatusBar":{
+    "prefix": "py-StatusBar",
+    "body": ["sg.StatusBar('${1:StatusBar}')"],
+    "description": "PySimpleGUI Status Bar - Creates a sunken text-filled strip."
+  },
+  "PySimpleGUI ProgressBar":{
+    "prefix": "py-ProgressBar",
+    "body": ["sg.ProgressBar(${1:maxvalue}, orientation='${2:h}', s=(${3:None},${4:None}))"],
+    "description": "PySimpleGUI Progress Bar - Displays a colored bar that is shaded as progress of some operation is made."
+  },
+  "PySimpleGUI Titlebar":{
+    "prefix": "py-Titlebar",
+    "body": ["sg.Titlebar(title = '${1:title}')"],
+    "description": "PySimpleGUI Title Bar - Column element for a nice Title Bar for a Window."
+  },
+  "PySimpleGUI Sizer":{
+    "prefix": "py-Sizer",
+    "body": ["sg.Sizer(${1:h_pixels},${2:v_pixels})"],
+    "description": "PySimpleGUI Sizer - Column element used to add more space.... more size... to a Container Element or a Window."
+  },
+  "PySimpleGUI HSep":{
+    "prefix": "py-HSep",
+    "body": ["sg.HSep(color=${1:None}, pad=${2:None})"],
+    "description": "PySimpleGUI HSep - Horizontal Separator Element draws a Horizontal line at the given location."
+  },
+  "PySimpleGUI VSep":{
+    "prefix": "py-VSep",
+    "body": ["sg.VSep(color=${1:None}, pad=${2:None})"],
+    "description": "PySimpleGUI VSep - Vertical Separator Element draws a vertical line at the given location."
   }
 }
