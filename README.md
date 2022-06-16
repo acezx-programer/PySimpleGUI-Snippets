@@ -38,6 +38,11 @@
 
 ## Release Notes
 
+### 3.0.0
+
+- Added 12 new snippets.
+- New Snippet Pattern
+
 ### 2.0.0
 
 10 new snippets, with descriptions.
