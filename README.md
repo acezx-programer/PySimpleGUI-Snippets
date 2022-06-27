@@ -66,3 +66,5 @@ Initial release of PySimpleGUI Snippets
 - [renatocfrancisco](https://github.com/renatocfrancisco)
 
 **Enjoy!**
+
+psstt, 3.1 is coming soon!
