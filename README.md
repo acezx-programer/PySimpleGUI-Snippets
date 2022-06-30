@@ -68,3 +68,4 @@ Initial release of PySimpleGUI Snippets
 **Enjoy!**
 
 psstt, 3.1 is coming soon!
+(i have high school so i cant really work on this project right now, also life problems)
