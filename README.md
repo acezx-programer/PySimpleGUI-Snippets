@@ -67,4 +67,4 @@ Initial release of PySimpleGUI Snippets
 
 **Enjoy!**
 
-(i cant update this project for very long time, very very long. my brain is now braindead and monke.)
+(yeah no.)
