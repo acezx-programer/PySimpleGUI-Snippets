@@ -67,4 +67,4 @@ Initial release of PySimpleGUI Snippets
 
 **Enjoy!**
 
-(I dicided since i dont wanna work on this extension anymore, its up for someone to keep developing it, if you can, please contribute, would be helpfull, thanks)
+(I decided i didn't want to work on this extension any longer, if somebody wants to contribute to this work, feel free to do so.)
